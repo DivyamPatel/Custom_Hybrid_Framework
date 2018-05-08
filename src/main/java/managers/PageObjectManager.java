@@ -11,7 +11,7 @@ import pageobjects.SearchCarPage;
 
 public class PageObjectManager
 {	
-	private AppiumDriver<WebElement> appiumDriver;
+
 	private RemoteWebDriver driver;
 	private BaseFramework baseFramework;
 	private HomePage homePage;

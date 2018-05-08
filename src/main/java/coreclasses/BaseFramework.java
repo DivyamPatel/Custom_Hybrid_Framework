@@ -15,13 +15,7 @@ public class BaseFramework {
 	private JavascriptExecutor jse;
 	private String appType = FileReaderManager.getInstance().getConfigReader(ConfigurationFile.GENERAL).getRunOn().toString().toUpperCase();
 	
-	public BaseFramework(AppiumDriver<WebElement> appiumDriver, RemoteWebDriver driver) {
-		if (appType.startsWith("MOBILE")) {
-			this.appiumDriver = appiumDriver;
-		} else {
-			this.driver = driver;
-		}
-	}
+	
 
 	public void sendKeys(WebElement element, String keysToSend)
 	{
@@ -106,18 +100,6 @@ public class BaseFramework {
 		return value;
 	}
 
-	private void highlightElement(WebElement element)
-	{
-		if (appType.startsWith("MOBILE")) {
-			if (jse == null) {
-				jse = (JavascriptExecutor) appiumDriver;
-			}	
-		} else {
-			if (jse == null) {
-				jse = (JavascriptExecutor) driver;
-			}
-		}
-		jse.executeScript("arguments[0].style.border='3px solid red'", element);
-	}
+	
 
 }

@@ -14,7 +14,7 @@
 # CONFIGURATION FILE
 We have properties file from where we can configure the environment for execution
 1. RUN_ON: Here we provide the device the user wants to run the test - Mobile_Android/Mobile_IOS/Mobile_Browser/Web
-2.SERVER_IP:Here the Server IP where the Appium is running is provided. (e.g. 127.0.0.1(default))
+2. SERVER_IP:Here the Server IP where the Appium is running is provided. (e.g. 127.0.0.1(default))
 3. PORT: Here the Port number of the appium is provided. (e.g. 4723 (default))
 4. DEVICE_NAME: Connect your real mobile device with the system and open cmd. Type “adb devices” and note the device number. The number is mentioned here.
 5. PLATFORM_NAME: Platform the user wants to execute the test – Android/ IOS

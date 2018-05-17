@@ -1,8 +1,13 @@
 # Custom Hybrid Framework (Mobile & Web)
 
 # TECHNOLOGIES USED
+<<<<<<< HEAD
  -  Cucumber – BDD Framework 
  -  Maven – Build Tool 
+=======
+ -  Cucumber â€“ BDD Framework 
+ -  Maven â€“ Build Tool 
+>>>>>>> 352f2f7afebff870dad78b5b58cfe82287680966
  -  TestNG 
  -  POM - Framework(Custom)
  -  JAVA - Coding language
@@ -16,9 +21,15 @@ We have properties file from where we can configure the environment for executio
 1. RUN_ON: Here we provide the device the user wants to run the test - Mobile_Android/Mobile_IOS/Mobile_Browser/Web
 2. SERVER_IP:Here the Server IP where the Appium is running is provided. (e.g. 127.0.0.1(default))
 3. PORT: Here the Port number of the appium is provided. (e.g. 4723 (default))
+<<<<<<< HEAD
 4. DEVICE_NAME: Connect your real mobile device with the system and open cmd. Type “adb devices” and note the device number. The number is mentioned here.
 5. PLATFORM_NAME: Platform the user wants to execute the test – Android/ IOS
 6. PLATFORM_VERSION: Platform version the user wants to execute the test – (e.g. 6.0.1)
+=======
+4. DEVICE_NAME: Connect your real mobile device with the system and open cmd. Type â€œadb devicesâ€ and note the device number. The number is mentioned here.
+5. PLATFORM_NAME: Platform the user wants to execute the test â€“ Android/ IOS
+6. PLATFORM_VERSION: Platform version the user wants to execute the test â€“ (e.g. 6.0.1)
+>>>>>>> 352f2f7afebff870dad78b5b58cfe82287680966
 7. APP_PATH: The path where the .apk or .ipa file resides
 8. APP_PACKAGE: The name of the application package
 9. APP_ACTIVITY: The name of the application main activity
@@ -33,4 +44,8 @@ We have properties file from where we can configure the environment for executio
 
 # CREATE A NEW TESTCASE
 1.	Create a .feature file 
+<<<<<<< HEAD
 2.	Create a .java file
+=======
+2.	Create a .java file
+>>>>>>> 352f2f7afebff870dad78b5b58cfe82287680966
